@@ -1,0 +1,30 @@
+# started on Wed Apr 29 15:10:23 2020
+
+
+ Performance counter stats for './basicmath_large':
+
+    1,04,47,05,383      cycles:u                                                      (18.67%)
+    2,09,61,69,899      instructions:u            #    2.01  insn per cycle           (25.26%)
+       1,01,24,635      bus-cycles:u                                                  (31.82%)
+          6,24,370      cache-references:u                                            (38.12%)
+          3,50,710      cache-misses:u            #   56.170 % of all cache refs      (44.15%)
+      46,02,50,615      branch-instructions:u                                         (50.60%)
+         14,86,875      branch-misses:u           #    0.32% of all branches          (57.03%)
+      48,24,12,031      L1-dcache-loads:u                                             (63.21%)
+         34,41,744      L1-dcache-load-misses:u   #    0.71% of all L1-dcache hits    (63.13%)
+      28,44,12,751      L1-dcache-stores:u                                            (63.06%)
+       3,28,92,184      L1-icache-load-misses:u                                       (49.63%)
+          8,57,991      iTLB-load-misses:u                                            (49.57%)
+            66,390      LLC-loads:u                                                   (49.80%)
+            18,841      LLC-load-misses:u         #   28.38% of all LL-cache hits     (49.40%)
+             6,327      LLC-stores:u                                                  (12.22%)
+             4,069      LLC-store-misses:u                                            (12.24%)
+   <not supported>      L1-dcache-store-misses:u                                    
+   <not supported>      L1-icache-loads:u                                           
+
+       2.829153550 seconds time elapsed
+
+       0.612361000 seconds user
+       0.994305000 seconds sys
+
+
